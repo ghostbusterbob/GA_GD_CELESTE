@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Ground"))
+        if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Elevator"))
         {
             isGrounded = true;
         }
