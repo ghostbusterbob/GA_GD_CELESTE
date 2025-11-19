@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float airDrag = 0.05f;
     [SerializeField, Range(0f, 20f)] private float airControlMultiplier = 0.4f;
+    [SerializeField] private float wallClimb = 5f; 
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -22,7 +23,13 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            //wallClimb();
+        }
     }
+
 
     void FixedUpdate()
     {
@@ -66,4 +73,10 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
         }
     }
+    private void Climb()
+    {
+
+    }
 }
+
+    
