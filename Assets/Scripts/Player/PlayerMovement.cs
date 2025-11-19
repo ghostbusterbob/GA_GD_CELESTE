@@ -10,10 +10,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    private Vector3 respawnPoint;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        respawnPoint = transform.position;
     }
 
     void Update()
@@ -30,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded)
         {
-            // Full control
             rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
         }
         else
@@ -44,13 +45,11 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 rb.linearVelocity = new Vector2(
-                    Mathf.Lerp(rb.linearVelocity.x, 0, airDrag), 
+                    Mathf.Lerp(rb.linearVelocity.x, 0, airDrag),
                     rb.linearVelocity.y
                 );
             }
         }
-
-
     }
 
     private void Jump()
@@ -58,6 +57,12 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         isGrounded = false;
     }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
