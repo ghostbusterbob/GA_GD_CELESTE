@@ -102,12 +102,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-<<<<<<< Updated upstream
-        if (collision.collider.CompareTag("Ground"))
-        {
-=======
+
         if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Elevator"))
->>>>>>> Stashed changes
             isGrounded = true;
     }
 }
