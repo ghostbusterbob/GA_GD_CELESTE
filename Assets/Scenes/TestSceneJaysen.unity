@@ -221,8 +221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   metersUp: 3
-  waitTime: 1
-  speed: 4
+  waitTime: 2
+  speed: 20
+  cameraShake: {fileID: 519420033}
+  shakeMagnitude: 0.1
+  shakeTime: 0.1
 --- !u!61 &177138512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -723,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6836600377052006038, guid: 3fa8b2bb605e27e42a24583b81842a8d, type: 3}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -7,46 +7,85 @@ public class Eleve : MonoBehaviour
     [SerializeField] private float waitTime = 3f; 
     [SerializeField] private float speed;
 
+    [SerializeField] private CameraShake cameraShake;
+
     private float timer = 0f;
     private bool shouldLerpUp = false;
 
     private Vector2 initialPosition;
     private Vector2 finalPos;
+    
+    private bool hasShaken = false;
+    private bool reachedTopOnce = false;
+    
+    [SerializeField] private float shakeMagnitude;
+    [SerializeField] private float shakeTime;
+
 
     private void Start()
     {
         initialPosition = transform.position;
         finalPos = initialPosition; 
+        
+        cameraShake = FindObjectOfType<CameraShake>();
+
+        
     }
 
     private void Update()
     {
-        finalPos = shouldLerpUp ? new Vector2(initialPosition.x, initialPosition.y + metersUp) : initialPosition;
+        finalPos = shouldLerpUp ? 
+            new Vector2(initialPosition.x, initialPosition.y + metersUp) : 
+            initialPosition;
 
         LerpEffect();
 
-        if (shouldLerpUp)
+        if (reachedTopOnce)
         {
             timer += Time.deltaTime;
+
             if (timer >= waitTime)
             {
-                shouldLerpUp = false;
-                timer = 0f; 
+                shouldLerpUp = false;  
+                timer = 0f;
+                reachedTopOnce = false; 
             }
         }
     }
+    // slowdown effect
 
     private void LerpEffect()
     {
         transform.position = Vector2.Lerp(transform.position, finalPos, Time.deltaTime * speed);
+
+        bool reachedTop = Vector2.Distance(transform.position, initialPosition + Vector2.up * metersUp) < 0.15f;
+
+        if (reachedTop)
+        {
+            if (!hasShaken)
+            {
+                hasShaken = true;
+                StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
+            }
+
+            if (!reachedTopOnce)
+            {
+                reachedTopOnce = true;
+                timer = 0f;
+            }
+        }
     }
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             shouldLerpUp = true;
-            timer = 0f;
+
+            hasShaken = false;
+            reachedTopOnce = false; 
         }
     }
+
 }
