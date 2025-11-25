@@ -604,12 +604,8 @@ PrefabInstance:
       value: Particle System LightSnow
       objectReference: {fileID: 0}
     - target: {fileID: 3561829575398632363, guid: 596650b11b10a604db8927257946e312, type: 3}
-      propertyPath: prewarm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3561829575398632363, guid: 596650b11b10a604db8927257946e312, type: 3}
-      propertyPath: playOnAwake
-      value: 1
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4533726812544274637, guid: 596650b11b10a604db8927257946e312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -652,8 +648,8 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 6052567569686708499, guid: 596650b11b10a604db8927257946e312, type: 3}
-      propertyPath: playOnAwake
-      value: 1
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
