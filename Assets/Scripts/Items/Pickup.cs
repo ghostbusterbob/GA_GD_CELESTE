@@ -1,8 +1,10 @@
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
+    [SerializeField] private Animator _animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +20,7 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            _animator.SetBool("PickedUp", true);
         }
     }
 

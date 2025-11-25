@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             Jump();
 
-        if (Input.GetKeyDown(KeyCode.Q) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash || Input.GetKeyDown(KeyCode.C) && canDash || Input.GetKeyDown(KeyCode.X) && canDash)
             StartDash();
     }
 
