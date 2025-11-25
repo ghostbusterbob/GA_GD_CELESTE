@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: d95bcc53ee52fd341b7b6e92e3fa058e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 878903485291457067
+    second: M6BO_CelesteStrawberryDisappear-Sheet_0
+  - first:
+      213: -7470913416661963899
+    second: M6BO_CelesteStrawberryDisappear-Sheet_1
+  - first:
+      213: 1762090045300601330
+    second: M6BO_CelesteStrawberryDisappear-Sheet_2
+  - first:
+      213: -7546663376900486795
+    second: M6BO_CelesteStrawberryDisappear-Sheet_3
+  - first:
+      213: 6401118101336486403
+    second: M6BO_CelesteStrawberryDisappear-Sheet_4
+  - first:
+      213: 8099835941417896039
+    second: M6BO_CelesteStrawberryDisappear-Sheet_5
+  - first:
+      213: 6781710566060673201
+    second: M6BO_CelesteStrawberryDisappear-Sheet_6
+  - first:
+      213: 5467502974938267869
+    second: M6BO_CelesteStrawberryDisappear-Sheet_7
+  - first:
+      213: -5221121429218157713
+    second: M6BO_CelesteStrawberryDisappear-Sheet_8
+  - first:
+      213: 4154313325490503556
+    second: M6BO_CelesteStrawberryDisappear-Sheet_9
+  - first:
+      213: -7609998339259886563
+    second: M6BO_CelesteStrawberryDisappear-Sheet_10
+  - first:
+      213: -7753084472130637458
+    second: M6BO_CelesteStrawberryDisappear-Sheet_11
+  - first:
+      213: 2794325316737157388
+    second: M6BO_CelesteStrawberryDisappear-Sheet_12
+  - first:
+      213: -9098363248432123443
+    second: M6BO_CelesteStrawberryDisappear-Sheet_13
+  - first:
+      213: -234332279093680381
+    second: M6BO_CelesteStrawberryDisappear-Sheet_14
+  - first:
+      213: -9019939019593408258
+    second: M6BO_CelesteStrawberryDisappear-Sheet_15
+  - first:
+      213: 1278363861548312483
+    second: M6BO_CelesteStrawberryDisappear-Sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a66a0301e723c00800000000000000
+      internalID: 878903485291457067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58be92484dbf15890800000000000000
+      internalID: -7470913416661963899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 3
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1f46c6f83347810800000000000000
+      internalID: 1762090045300601330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579856484add44790800000000000000
+      internalID: -7546663376900486795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 7
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302fb73aff655d850800000000000000
+      internalID: 6401118101336486403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768c72bbfd5686070800000000000000
+      internalID: 8099835941417896039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b84f8b24d97d1e50800000000000000
+      internalID: 6781710566060673201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 4
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd04695dcf870eb40800000000000000
+      internalID: 5467502974938267869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 4
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b954a09b9da87b0800000000000000
+      internalID: -5221121429218157713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 4
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f788385f517a930800000000000000
+      internalID: 4154313325490503556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 4
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d141a1774dad36690800000000000000
+      internalID: -7609998339259886563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 8
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e617e0d00c2876490800000000000000
+      internalID: -7753084472130637458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09cff2121077c620800000000000000
+      internalID: 2794325316737157388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 10
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1fbbba4de1cb180800000000000000
+      internalID: -9098363248432123443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307a631a80c7fbcf0800000000000000
+      internalID: -234332279093680381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef02379504db2d280800000000000000
+      internalID: -9019939019593408258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteStrawberryDisappear-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7a845b829adb110800000000000000
+      internalID: 1278363861548312483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
