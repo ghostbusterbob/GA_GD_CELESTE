@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_0: -6342762119182587253
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_1: 8640816076214842061
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_2: 3484414542182583974
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_3: 649445795709340069
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_4: 2499024742788048369
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_5: 3685267624615456966
+      M6BO_CelesteStrawberryCollectibleSprites-Sheet_6: -8385895516798247109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
