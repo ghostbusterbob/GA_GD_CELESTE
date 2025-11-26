@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isDashing;
     private bool canDash = true;
+    private bool hasDashed = false;
 
     private float dashTimeLeft;
     private float lastDash = -100f;
@@ -31,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             Jump();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash || Input.GetKeyDown(KeyCode.C) && canDash || Input.GetKeyDown(KeyCode.X) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !hasDashed || Input.GetKeyDown(KeyCode.C) && canDash && !hasDashed || Input.GetKeyDown(KeyCode.X) && canDash && !hasDashed)
             StartDash();
     }
 
@@ -79,11 +80,15 @@ public class PlayerMovement : MonoBehaviour
         canDash = false;
         dashTimeLeft = dashDuration;
 
+        if (!isGrounded)
+            hasDashed = true;
+
         rb.linearVelocity = new Vector2(moveInput * dashForce, 0);
 
         Invoke(nameof(EndDash), dashDuration);
         Invoke(nameof(ResetDash), dashCooldown);
-    }
+
+        }
 
     private void EndDash()
     {
@@ -105,5 +110,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Elevator"))
             isGrounded = true;
+            hasDashed = false;
+            canDash = true;
     }
 }
