@@ -6,7 +6,7 @@ public class Spike : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerMovement>().Die();
+           // collision.GetComponent<PlayerMovement>().Die();
         }
     }
 }
