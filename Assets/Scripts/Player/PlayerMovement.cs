@@ -19,9 +19,6 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash = true;
     private bool hasDashed = false;
 
-    private float dashTimeLeft;
-    private float lastDash = -100f;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -32,8 +29,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             Jump();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !hasDashed || Input.GetKeyDown(KeyCode.C) && canDash && !hasDashed || Input.GetKeyDown(KeyCode.X) && canDash && !hasDashed)
+        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.X)) 
+            && canDash && !hasDashed)
+        {
             StartDash();
+        }
     }
 
     void FixedUpdate()
@@ -78,7 +78,6 @@ public class PlayerMovement : MonoBehaviour
 
         isDashing = true;
         canDash = false;
-        dashTimeLeft = dashDuration;
 
         if (!isGrounded)
             hasDashed = true;
@@ -87,8 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
         Invoke(nameof(EndDash), dashDuration);
         Invoke(nameof(ResetDash), dashCooldown);
-
-        }
+    }
 
     private void EndDash()
     {
@@ -107,10 +105,27 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
+        
         if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Elevator"))
+        {
             isGrounded = true;
             hasDashed = false;
             canDash = true;
+        }
+
+       
+        if (collision.collider.CompareTag("Spike"))
+        {
+            Die();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.CompareTag("Spike"))
+        {
+            Die();
+        }
     }
 }

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      die_eene_highres_aardbei_0: 2807988625850229314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
