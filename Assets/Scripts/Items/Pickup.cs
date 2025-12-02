@@ -21,6 +21,7 @@ public class Pickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _animator.SetBool("PickedUp", true);
+            FindAnyObjectByType<Score>().AddStrawberry();
         }
     }
 
