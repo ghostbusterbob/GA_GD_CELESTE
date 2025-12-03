@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //Input voor Jumpen en Dashen
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             Jump();
 
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate()
+        //Dash mechanics
     {
         if (isDashing) return;
 
@@ -65,12 +67,14 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Jump()
+    //nog meer jump mechanics
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         isGrounded = false;
     }
 
     private void StartDash()
+    //Nog meer dash mechanics
     {
         float moveInput = Input.GetAxisRaw("Horizontal");
 
@@ -106,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
+    //zorgt ervoor dat de speler niet kan blijven dashen in de lucht
     {
 
         if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Elevator"))
