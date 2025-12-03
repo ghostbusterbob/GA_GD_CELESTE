@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 57da64501c091994581860972af51558
+guid: a9cbadf0975b64b488bf13a7c45982d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2807988625850229314
-    second: die_eene_highres_aardbei_0
+      213: -4912767828336902515
+    second: medeline's dood vlak_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: die_eene_highres_aardbei_0
+      name: medeline's dood vlak_0
       rect:
         serializedVersion: 2
-        x: 165
-        y: 276
-        width: 792
-        height: 1069
+        x: 325
+        y: 0
+        width: 1476
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 687, y: 0, z: 683, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 242e32127caf7f620800000000000000
-      internalID: 2807988625850229314
+      spriteID: d8ef20860b752dbb0800000000000000
+      internalID: -4912767828336902515
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9fcab56c3687db48a301cd42ce9dce7
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      die_eene_highres_aardbei_0: 2807988625850229314
+      medeline's dood vlak_0: -4912767828336902515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Elevator
+  - Spike
   layers:
   - Default
   - TransparentFX
