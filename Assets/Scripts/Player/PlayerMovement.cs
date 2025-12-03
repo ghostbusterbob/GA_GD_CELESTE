@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float speed = 7f;
+    [SerializeField] private float jumpForce = 4.5f;
     [SerializeField] private float airDrag = 0.05f;
-    [SerializeField, Range(0f, 20f)] private float airControlMultiplier = 0.4f;
+    [SerializeField, Range(0f, 20f)] private float airControlMultiplier = 10f;
 
     [Header("Dash Settings")]
-    [SerializeField] private float dashForce = 15f;
+    [SerializeField] private float dashForce = 20f;
     [SerializeField] private float dashDuration = 0.15f;
-    [SerializeField] private float dashCooldown = 1f;
+    [SerializeField] private float dashCooldown = 3f;
 
     private Rigidbody2D rb;
     private bool isGrounded;
