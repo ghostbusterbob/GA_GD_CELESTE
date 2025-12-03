@@ -18,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash = true;
     private bool hasDashed = false;
 
+    private Animator animator;
+    private bool Death = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -119,9 +122,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Spike"))
+        if (collision.CompareTag("Spike") && !Death)
         {
             Die();
+            
+            animator.SetBool("Death", true);
         }
     }
 }
