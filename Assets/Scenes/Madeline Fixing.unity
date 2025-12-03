@@ -20511,29 +20511,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4262620582177264121, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
       propertyPath: dashForce
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
-      propertyPath: jumpForce
-      value: 2
+      propertyPath: dashCooldown
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 4588046364475123050, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
-      propertyPath: m_GravityScale
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7867264378426241521, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7916471070536599422, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0897
+    - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
+      propertyPath: airControlMultiplier
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7992583605407843848, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
       propertyPath: m_Name

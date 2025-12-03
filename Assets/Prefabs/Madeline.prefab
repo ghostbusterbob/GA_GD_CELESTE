@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1334175964393655541}
   - component: {fileID: 4445195087448576665}
-  - component: {fileID: 7867264378426241521}
   - component: {fileID: 4588046364475123050}
   - component: {fileID: 4262620582177264121}
   m_Layer: 0
@@ -49,58 +48,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  jumpForce: 5
+  jumpForce: 2
   airDrag: 0.05
   airControlMultiplier: 0.4
-  dashForce: 15
+  dashForce: 8
   dashDuration: 0.15
   dashCooldown: 1
---- !u!61 &7867264378426241521
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7992583605407843848}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.009776056, y: -0.004131615}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.18}
-    newSize: {x: 0.15, y: 0.18}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.08966792, y: 0.16789377}
-  m_EdgeRadius: 0
 --- !u!50 &4588046364475123050
 Rigidbody2D:
   serializedVersion: 5
@@ -116,7 +69,7 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.5
-  m_GravityScale: 1
+  m_GravityScale: 0.8
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -187,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5609549762490726937, guid: f4a5a4a1faa22304e9028c7b73499bb2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.088
+      value: -0.0897
       objectReference: {fileID: 0}
     - target: {fileID: 5609549762490726937, guid: f4a5a4a1faa22304e9028c7b73499bb2, type: 3}
       propertyPath: m_LocalPosition.z
