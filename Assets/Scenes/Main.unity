@@ -1273,18 +1273,6 @@ PrefabInstance:
       value: Spike
       objectReference: {fileID: 0}
     - target: {fileID: 6630959931594304499, guid: 2002f50a523936d41aa3b6c8709a9f32, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8.8842
-      objectReference: {fileID: 0}
-    - target: {fileID: 6630959931594304499, guid: 2002f50a523936d41aa3b6c8709a9f32, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 8.8842
-      objectReference: {fileID: 0}
-    - target: {fileID: 6630959931594304499, guid: 2002f50a523936d41aa3b6c8709a9f32, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 8.8842
-      objectReference: {fileID: 0}
-    - target: {fileID: 6630959931594304499, guid: 2002f50a523936d41aa3b6c8709a9f32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.5377555
       objectReference: {fileID: 0}
