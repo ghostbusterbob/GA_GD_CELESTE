@@ -55,7 +55,6 @@ public class Eleve : MonoBehaviour
         }
     }
     // slowdown effect
-
     private void LerpEffect()
     {
         transform.position = Vector2.Lerp(transform.position, finalPos, Time.deltaTime * speed);
@@ -88,7 +87,6 @@ public class Eleve : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             shouldLerpUp = true;
-
             hasShaken = false;
             reachedTopOnce = false; 
         }
