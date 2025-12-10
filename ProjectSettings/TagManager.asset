@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ground
   - Elevator
-  - RoomBounds
+  - Spike
   layers:
   - Default
   - TransparentFX
@@ -41,20 +41,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Front
-    uniqueID: 3113513819
+  - name: Sky
+    uniqueID: 249563567
     locked: 0
-  - name: Main
-    uniqueID: 1318162263
+  - name: Background
+    uniqueID: 843308313
     locked: 0
   - name: Backwall
     uniqueID: 1911498509
     locked: 0
-  - name: Background
-    uniqueID: 249563567
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Main
+    uniqueID: 1318162263
+    locked: 0
+  - name: Front
+    uniqueID: 3113513819
     locked: 0
   m_RenderingLayers:
   - Default

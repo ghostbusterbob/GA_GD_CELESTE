@@ -1,0 +1,957 @@
+fileFormatVersion: 2
+guid: 15b09dff753565441b0ce668942c9dbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6487358212753450781
+    second: M6BO_CelesteGameOverSpritesAnimation_0
+  - first:
+      213: 6460528047856090488
+    second: M6BO_CelesteGameOverSpritesAnimation_1
+  - first:
+      213: -4510821757161704445
+    second: M6BO_CelesteGameOverSpritesAnimation_2
+  - first:
+      213: -6729338735103576193
+    second: M6BO_CelesteGameOverSpritesAnimation_3
+  - first:
+      213: -1291774178197394427
+    second: M6BO_CelesteGameOverSpritesAnimation_4
+  - first:
+      213: 1276107548613860270
+    second: M6BO_CelesteGameOverSpritesAnimation_5
+  - first:
+      213: -7854864414559041433
+    second: M6BO_CelesteGameOverSpritesAnimation_6
+  - first:
+      213: -3370970532445435965
+    second: M6BO_CelesteGameOverSpritesAnimation_7
+  - first:
+      213: -3234891809533507318
+    second: M6BO_CelesteGameOverSpritesAnimation_8
+  - first:
+      213: 4260093626670626649
+    second: M6BO_CelesteGameOverSpritesAnimation_9
+  - first:
+      213: 6646747870368988339
+    second: M6BO_CelesteGameOverSpritesAnimation_10
+  - first:
+      213: 3634536886029911968
+    second: M6BO_CelesteGameOverSpritesAnimation_11
+  - first:
+      213: 3823315789745487989
+    second: M6BO_CelesteGameOverSpritesAnimation_12
+  - first:
+      213: -3034079221646157947
+    second: M6BO_CelesteGameOverSpritesAnimation_13
+  - first:
+      213: 3644345192902277386
+    second: M6BO_CelesteGameOverSpritesAnimation_14
+  - first:
+      213: -8332211674314991270
+    second: M6BO_CelesteGameOverSpritesAnimation_15
+  - first:
+      213: 8921324076361549855
+    second: M6BO_CelesteGameOverSpritesAnimation_16
+  - first:
+      213: 4691861207330436810
+    second: M6BO_CelesteGameOverSpritesAnimation_17
+  - first:
+      213: -2099007272517658426
+    second: M6BO_CelesteGameOverSpritesAnimation_18
+  - first:
+      213: 6520040491563499664
+    second: M6BO_CelesteGameOverSpritesAnimation_19
+  - first:
+      213: -1125660397259774136
+    second: M6BO_CelesteGameOverSpritesAnimation_20
+  - first:
+      213: -6297658420750958570
+    second: M6BO_CelesteGameOverSpritesAnimation_21
+  - first:
+      213: 820847351651748672
+    second: M6BO_CelesteGameOverSpritesAnimation_22
+  - first:
+      213: 4963200972428259376
+    second: M6BO_CelesteGameOverSpritesAnimation_23
+  - first:
+      213: -2429099572582838933
+    second: M6BO_CelesteGameOverSpritesAnimation_24
+  - first:
+      213: 839168303934511175
+    second: M6BO_CelesteGameOverSpritesAnimation_25
+  - first:
+      213: 6896881990831668673
+    second: M6BO_CelesteGameOverSpritesAnimation_26
+  - first:
+      213: 5240438531299453665
+    second: M6BO_CelesteGameOverSpritesAnimation_27
+  - first:
+      213: -5850400051714691686
+    second: M6BO_CelesteGameOverSpritesAnimation_28
+  - first:
+      213: -89479470999295557
+    second: M6BO_CelesteGameOverSpritesAnimation_29
+  - first:
+      213: 6615006467730361980
+    second: M6BO_CelesteGameOverSpritesAnimation_30
+  - first:
+      213: -8216557606233706175
+    second: M6BO_CelesteGameOverSpritesAnimation_31
+  - first:
+      213: -2928177235729043279
+    second: M6BO_CelesteGameOverSpritesAnimation_32
+  - first:
+      213: 5065076765985444913
+    second: M6BO_CelesteGameOverSpritesAnimation_33
+  - first:
+      213: 3265459909900197268
+    second: M6BO_CelesteGameOverSpritesAnimation_34
+  - first:
+      213: 9056954509723829049
+    second: M6BO_CelesteGameOverSpritesAnimation_35
+  - first:
+      213: 6424887742955014016
+    second: M6BO_CelesteGameOverSpritesAnimation_36
+  - first:
+      213: 8721656293240181903
+    second: M6BO_CelesteGameOverSpritesAnimation_37
+  - first:
+      213: -1454682199712056656
+    second: M6BO_CelesteGameOverSpritesAnimation_38
+  - first:
+      213: -6090021024036712808
+    second: M6BO_CelesteGameOverSpritesAnimation_39
+  - first:
+      213: 7931471524411354240
+    second: M6BO_CelesteGameOverSpritesAnimation_40
+  - first:
+      213: 5740135393767363396
+    second: M6BO_CelesteGameOverSpritesAnimation_41
+  - first:
+      213: 5111877508840050489
+    second: M6BO_CelesteGameOverSpritesAnimation_42
+  - first:
+      213: -5109949033037666864
+    second: M6BO_CelesteGameOverSpritesAnimation_43
+  - first:
+      213: 6588106503361987269
+    second: M6BO_CelesteGameOverSpritesAnimation_44
+  - first:
+      213: -8276235873729218028
+    second: M6BO_CelesteGameOverSpritesAnimation_45
+  - first:
+      213: 6072064797330924710
+    second: M6BO_CelesteGameOverSpritesAnimation_46
+  - first:
+      213: -5240349663564860593
+    second: M6BO_CelesteGameOverSpritesAnimation_47
+  - first:
+      213: -336748289781374039
+    second: M6BO_CelesteGameOverSpritesAnimation_48
+  - first:
+      213: -4342250015037296371
+    second: M6BO_CelesteGameOverSpritesAnimation_49
+  - first:
+      213: 7955631658969680906
+    second: M6BO_CelesteGameOverSpritesAnimation_50
+  - first:
+      213: -8488319990744805004
+    second: M6BO_CelesteGameOverSpritesAnimation_51
+  - first:
+      213: -3372427428584487102
+    second: M6BO_CelesteGameOverSpritesAnimation_52
+  - first:
+      213: 7926046403793896922
+    second: M6BO_CelesteGameOverSpritesAnimation_53
+  - first:
+      213: 1799679818977216042
+    second: M6BO_CelesteGameOverSpritesAnimation_54
+  - first:
+      213: -3496350850999265687
+    second: M6BO_CelesteGameOverSpritesAnimation_55
+  - first:
+      213: 899137462092230948
+    second: M6BO_CelesteGameOverSpritesAnimation_56
+  - first:
+      213: 6946442962284308282
+    second: M6BO_CelesteGameOverSpritesAnimation_57
+  - first:
+      213: -2828414850356421980
+    second: M6BO_CelesteGameOverSpritesAnimation_58
+  - first:
+      213: 8198235259011146712
+    second: M6BO_CelesteGameOverSpritesAnimation_59
+  - first:
+      213: 7780299149607713081
+    second: M6BO_CelesteGameOverSpritesAnimation_60
+  - first:
+      213: 2356569672442767849
+    second: M6BO_CelesteGameOverSpritesAnimation_61
+  - first:
+      213: 4710331697753631559
+    second: M6BO_CelesteGameOverSpritesAnimation_62
+  - first:
+      213: -7826462084446833040
+    second: M6BO_CelesteGameOverSpritesAnimation_63
+  - first:
+      213: 8291476400992899545
+    second: M6BO_CelesteGameOverSpritesAnimation_64
+  - first:
+      213: -3081340428655256277
+    second: M6BO_CelesteGameOverSpritesAnimation_65
+  - first:
+      213: 9124839135481020321
+    second: M6BO_CelesteGameOverSpritesAnimation_66
+  - first:
+      213: -769983753163432424
+    second: M6BO_CelesteGameOverSpritesAnimation_67
+  - first:
+      213: 1585745452525462942
+    second: M6BO_CelesteGameOverSpritesAnimation_68
+  - first:
+      213: 2175013738662580947
+    second: M6BO_CelesteGameOverSpritesAnimation_69
+  - first:
+      213: 3260753004188759832
+    second: M6BO_CelesteGameOverSpritesAnimation_70
+  - first:
+      213: 507878747243522061
+    second: M6BO_CelesteGameOverSpritesAnimation_71
+  - first:
+      213: -7737390142489127185
+    second: M6BO_CelesteGameOverSpritesAnimation_72
+  - first:
+      213: -6781353674386295581
+    second: M6BO_CelesteGameOverSpritesAnimation_73
+  - first:
+      213: -3699964668110491195
+    second: M6BO_CelesteGameOverSpritesAnimation_74
+  - first:
+      213: -7447989134100246985
+    second: M6BO_CelesteGameOverSpritesAnimation_75
+  - first:
+      213: 8502367873206645933
+    second: M6BO_CelesteGameOverSpritesAnimation_76
+  - first:
+      213: 6060069056696271313
+    second: M6BO_CelesteGameOverSpritesAnimation_77
+  - first:
+      213: -1960854460305483996
+    second: M6BO_CelesteGameOverSpritesAnimation_78
+  - first:
+      213: 8145248035218592432
+    second: M6BO_CelesteGameOverSpritesAnimation_79
+  - first:
+      213: 1164676388037275803
+    second: M6BO_CelesteGameOverSpritesAnimation_80
+  - first:
+      213: -6371154403273151484
+    second: M6BO_CelesteGameOverSpritesAnimation_81
+  - first:
+      213: 7560617874501686894
+    second: M6BO_CelesteGameOverSpritesAnimation_82
+  - first:
+      213: 1764039533584684405
+    second: M6BO_CelesteGameOverSpritesAnimation_83
+  - first:
+      213: 4405838893224049728
+    second: M6BO_CelesteGameOverSpritesAnimation_84
+  - first:
+      213: 7255462811709132013
+    second: M6BO_CelesteGameOverSpritesAnimation_85
+  - first:
+      213: -1788410664216645805
+    second: M6BO_CelesteGameOverSpritesAnimation_86
+  - first:
+      213: -6906681921369767447
+    second: M6BO_CelesteGameOverSpritesAnimation_87
+  - first:
+      213: -986188409347556
+    second: M6BO_CelesteGameOverSpritesAnimation_88
+  - first:
+      213: -7790216916331213741
+    second: M6BO_CelesteGameOverSpritesAnimation_89
+  - first:
+      213: -2407618876594535139
+    second: M6BO_CelesteGameOverSpritesAnimation_90
+  - first:
+      213: -1186468193632597655
+    second: M6BO_CelesteGameOverSpritesAnimation_91
+  - first:
+      213: 6032359214022509345
+    second: M6BO_CelesteGameOverSpritesAnimation_92
+  - first:
+      213: 2942458846221240072
+    second: M6BO_CelesteGameOverSpritesAnimation_93
+  - first:
+      213: 786576346021045626
+    second: M6BO_CelesteGameOverSpritesAnimation_94
+  - first:
+      213: -8236921903195109105
+    second: M6BO_CelesteGameOverSpritesAnimation_95
+  - first:
+      213: -6243011143118422493
+    second: M6BO_CelesteGameOverSpritesAnimation_96
+  - first:
+      213: -5969408424709788741
+    second: M6BO_CelesteGameOverSpritesAnimation_97
+  - first:
+      213: -5172934776382024523
+    second: M6BO_CelesteGameOverSpritesAnimation_98
+  - first:
+      213: -3381304193007812382
+    second: M6BO_CelesteGameOverSpritesAnimation_99
+  - first:
+      213: -8924826998758544429
+    second: M6BO_CelesteGameOverSpritesAnimation_100
+  - first:
+      213: 2151071953718236709
+    second: M6BO_CelesteGameOverSpritesAnimation_101
+  - first:
+      213: -1254405424773784722
+    second: M6BO_CelesteGameOverSpritesAnimation_102
+  - first:
+      213: 5484160782094981893
+    second: M6BO_CelesteGameOverSpritesAnimation_103
+  - first:
+      213: 696050584322080506
+    second: M6BO_CelesteGameOverSpritesAnimation_104
+  - first:
+      213: -2746320635654842137
+    second: M6BO_CelesteGameOverSpritesAnimation_105
+  - first:
+      213: -6400525988063745814
+    second: M6BO_CelesteGameOverSpritesAnimation_106
+  - first:
+      213: 2306370816230231358
+    second: M6BO_CelesteGameOverSpritesAnimation_107
+  - first:
+      213: 4047696862067051081
+    second: M6BO_CelesteGameOverSpritesAnimation_108
+  - first:
+      213: -1260746322872394923
+    second: M6BO_CelesteGameOverSpritesAnimation_109
+  - first:
+      213: -1604189053203974824
+    second: M6BO_CelesteGameOverSpritesAnimation_110
+  - first:
+      213: -4856118573087030
+    second: M6BO_CelesteGameOverSpritesAnimation_111
+  - first:
+      213: -1806862275379034863
+    second: M6BO_CelesteGameOverSpritesAnimation_112
+  - first:
+      213: 3440071260138760389
+    second: M6BO_CelesteGameOverSpritesAnimation_113
+  - first:
+      213: -4014847433539228722
+    second: M6BO_CelesteGameOverSpritesAnimation_114
+  - first:
+      213: -3878450112830369023
+    second: M6BO_CelesteGameOverSpritesAnimation_115
+  - first:
+      213: -4941908696063796299
+    second: M6BO_CelesteGameOverSpritesAnimation_116
+  - first:
+      213: -8352078375342523704
+    second: M6BO_CelesteGameOverSpritesAnimation_117
+  - first:
+      213: 4687291538750768770
+    second: M6BO_CelesteGameOverSpritesAnimation_118
+  - first:
+      213: -4137270309479876687
+    second: M6BO_CelesteGameOverSpritesAnimation_119
+  - first:
+      213: 3230499309402333121
+    second: M6BO_CelesteGameOverSpritesAnimation_120
+  - first:
+      213: -6423889976791066173
+    second: M6BO_CelesteGameOverSpritesAnimation_121
+  - first:
+      213: 4377189774006918370
+    second: M6BO_CelesteGameOverSpritesAnimation_122
+  - first:
+      213: 1524444427414262247
+    second: M6BO_CelesteGameOverSpritesAnimation_123
+  - first:
+      213: 4641030139583464937
+    second: M6BO_CelesteGameOverSpritesAnimation_124
+  - first:
+      213: -6057518578842136164
+    second: M6BO_CelesteGameOverSpritesAnimation_125
+  - first:
+      213: 8841506841388013055
+    second: M6BO_CelesteGameOverSpritesAnimation_126
+  - first:
+      213: 4618127068783948253
+    second: M6BO_CelesteGameOverSpritesAnimation_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 412
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17e1e94ce9b70a50800000000000000
+      internalID: 6487358212753450781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 394
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabd25aed05a5b110800000000000000
+      internalID: 1276107548613860270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 385
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7680a5b8e6aedf290800000000000000
+      internalID: -7854864414559041433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 385
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7c7413928e731d0800000000000000
+      internalID: -3370970532445435965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 409
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030462934dc314441990d71e5078b126
+      internalID: -1494555260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 255
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6755c1fdc6b844b94e1474cce69d3c
+      internalID: 606634577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 255
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f154fe3e0652b46ae0c87114ab1714
+      internalID: -1694580262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 262
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8aa3f7ef4cbde459b5c1d9ef0a3e4d
+      internalID: 641634574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 262
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a8dd1f5b7b8a342986e42e48f31f8b
+      internalID: 800678726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 264
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61736026a788da2418a0be37149b28c2
+      internalID: -1880646576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 129
+        width: 94
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e380dd38694d4fbbdfb5e6ec75346
+      internalID: 2144379129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 128
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6878afaadb0efbc4fa12e697d6538e7c
+      internalID: 801236213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 122
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c6d4b3520c2f048b10dd5bd6253634
+      internalID: -554945246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 122
+        width: 104
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ed8edb3ab8ea469fe5bf337174b88
+      internalID: 2090028470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 125
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bd2788e74edb44380a3cd8faa35e08
+      internalID: 329943636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 117
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fed3d02f385e748b7012cc4eadc185
+      internalID: -1155595611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b21435fdf245974cbb289b0630fab2b
+      internalID: 1878118159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43845f36e32d6c34ca56e6384bdb98c1
+      internalID: 779454930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a246a9dacd7d244ebe7a9194cabf71a
+      internalID: -530092506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_CelesteGameOverSpritesAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5e219959db89b4caa100777d57e08f
+      internalID: -1972346441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2259b6995ff6f3d43a16da10ef23c93e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      M6BO_CelesteGameOverSpritesAnimation_1: -1494555260
+      M6BO_CelesteGameOverSpritesAnimation_10: 800678726
+      M6BO_CelesteGameOverSpritesAnimation_11: 801236213
+      M6BO_CelesteGameOverSpritesAnimation_12: -554945246
+      M6BO_CelesteGameOverSpritesAnimation_13: 2090028470
+      M6BO_CelesteGameOverSpritesAnimation_14: 329943636
+      M6BO_CelesteGameOverSpritesAnimation_15: -1155595611
+      M6BO_CelesteGameOverSpritesAnimation_16: 1878118159
+      M6BO_CelesteGameOverSpritesAnimation_17: 779454930
+      M6BO_CelesteGameOverSpritesAnimation_18: -530092506
+      M6BO_CelesteGameOverSpritesAnimation_19: -1972346441
+      M6BO_CelesteGameOverSpritesAnimation_2: 606634577
+      M6BO_CelesteGameOverSpritesAnimation_3: -1694580262
+      M6BO_CelesteGameOverSpritesAnimation_4: 641634574
+      M6BO_CelesteGameOverSpritesAnimation_8: -1880646576
+      M6BO_CelesteGameOverSpritesAnimation_9: 2144379129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
