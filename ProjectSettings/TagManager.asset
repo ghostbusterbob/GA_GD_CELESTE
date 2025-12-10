@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Elevator
+  - RoomBounds
   layers:
   - Default
   - TransparentFX
