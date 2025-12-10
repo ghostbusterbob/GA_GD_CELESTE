@@ -1,81 +1,65 @@
 using UnityEngine;
-using System.Collections;
 
 public class CelesteCamera : MonoBehaviour
 {
-    public Transform player;
-    public float smoothSpeed = 5f;
+    [SerializeField] private Transform cameraTransform;
+    [SerializeField] private Transform playerTransform;
 
-    private Bounds roomBounds;
+    private CameraRoom activeRoom;
 
     private float camHalfHeight;
     private float camHalfWidth;
 
-    private bool sliding = false;   // prevents normal follow during slide
-
-    void Start()
+    private void Start()
     {
-        Camera cam = GetComponent<Camera>();
+        Camera cam = Camera.main;
         camHalfHeight = cam.orthographicSize;
         camHalfWidth = camHalfHeight * cam.aspect;
     }
 
-    void LateUpdate()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (player == null || sliding) return;
-
-        Vector3 target = new Vector3(player.position.x, player.position.y, transform.position.z);
-
-        Vector3 smoothed = Vector3.Lerp(transform.position, target, smoothSpeed * Time.deltaTime);
-
-        float clampedX = Mathf.Clamp(smoothed.x,
-            roomBounds.min.x + camHalfWidth,
-            roomBounds.max.x - camHalfWidth);
-
-        float clampedY = Mathf.Clamp(smoothed.y,
-            roomBounds.min.y + camHalfHeight,
-            roomBounds.max.y - camHalfHeight);
-
-        transform.position = new Vector3(clampedX, clampedY, smoothed.z);
-    }
-
-    public void SetRoomBounds(Bounds newBounds, bool slide = true)
-    {
-        if (slide)
-            StartCoroutine(SlideToRoom(newBounds));
-        else
-            roomBounds = newBounds;
-    }
-
-    private IEnumerator SlideToRoom(Bounds newBounds)
-    {
-        sliding = true;
-        roomBounds = newBounds;
-
-        Vector3 startPos = transform.position;
-
-        // Compute target position (center of new room, clamped)
-        float targetX = Mathf.Clamp(player.position.x,
-            newBounds.min.x + camHalfWidth,
-            newBounds.max.x - camHalfWidth);
-
-        float targetY = Mathf.Clamp(player.position.y,
-            newBounds.min.y + camHalfHeight,
-            newBounds.max.y - camHalfHeight);
-
-        Vector3 endPos = new Vector3(targetX, targetY, startPos.z);
-
-        float t = 0f;
-        float duration = 0.35f;  // Celeste-like speed
-
-        while (t < 1f)
+        if (other.CompareTag("RoomBounds"))
         {
-            t += Time.deltaTime / duration;
-            float eased = Mathf.SmoothStep(0, 1, t);   // smooth easing curve
-            transform.position = Vector3.Lerp(startPos, endPos, eased);
-            yield return null;
+            CameraRoom room = other.transform.parent.GetComponent<CameraRoom>();
+            if (room != null)
+            {
+                activeRoom = room;
+                SnapToBounds();   // instant Celeste snap
+            }
         }
+    }
 
-        sliding = false;
+    private void LateUpdate()
+    {
+        if (activeRoom == null) return;
+        FollowInsideBounds();
+    }
+
+    private void FollowInsideBounds()
+    {
+        Vector3 pos = cameraTransform.position;
+
+        // Follow player
+        pos.x = playerTransform.position.x;
+        pos.y = playerTransform.position.y;
+
+        // Get room bounds
+        Bounds b = activeRoom.bounds.bounds;
+
+        float left   = b.min.x + camHalfWidth;
+        float right  = b.max.x - camHalfWidth;
+        float bottom = b.min.y + camHalfHeight;
+        float top    = b.max.y - camHalfHeight;
+
+        pos.x = Mathf.Clamp(pos.x, left, right);
+        pos.y = Mathf.Clamp(pos.y, bottom, top);
+
+        cameraTransform.position = pos;
+    }
+
+    private void SnapToBounds()
+    {
+        FollowInsideBounds();  // instant snap = Celeste
     }
 }
