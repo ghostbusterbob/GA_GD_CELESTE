@@ -67,7 +67,11 @@ public class Eleve : MonoBehaviour
             if (!hasShaken)
             {
                 hasShaken = true;
-                StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
+                if (cameraShake != null)
+                {
+                    StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
+
+                }
             }
 
             if (!reachedTopOnce)
