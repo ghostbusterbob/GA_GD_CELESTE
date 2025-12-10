@@ -23,6 +23,7 @@ public class Eleve : MonoBehaviour
 
 
     private void Start()
+        //zorgt ervoor dat de elevator van positie verplaatst
     {
         initialPosition = transform.position;
         finalPos = initialPosition; 
@@ -41,6 +42,7 @@ public class Eleve : MonoBehaviour
         LerpEffect();
 
         if (reachedTopOnce)
+        //Zorgt ervoor dat de elevator na een tijdje weer naar beneden gaat
         {
             timer += Time.deltaTime;
 
@@ -53,7 +55,6 @@ public class Eleve : MonoBehaviour
         }
     }
     // slowdown effect
-
     private void LerpEffect()
     {
         transform.position = Vector2.Lerp(transform.position, finalPos, Time.deltaTime * speed);
@@ -65,7 +66,11 @@ public class Eleve : MonoBehaviour
             if (!hasShaken)
             {
                 hasShaken = true;
-                StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
+                if (cameraShake != null)
+                {
+                    StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
+
+                }
             }
 
             if (!reachedTopOnce)
@@ -82,7 +87,6 @@ public class Eleve : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             shouldLerpUp = true;
-
             hasShaken = false;
             reachedTopOnce = false; 
         }
