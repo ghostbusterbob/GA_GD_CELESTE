@@ -1,26 +1,22 @@
-using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float jumpForce = 5f;
-    [SerializeField] private float airDrag = 0.05f;
-    [SerializeField, Range(0f, 20f)] private float airControlMultiplier = 0.4f;
+    [Header("Movement")]
+    [SerializeField] private float speed = 7f;
+    [SerializeField] private float jumpForce = 4.5f;
+    [SerializeField] private float airControlMultiplier = 10f;
 
     [Header("Dash Settings")]
-    [SerializeField] private float dashForce = 15f;
+    [SerializeField] private float dashForce = 20f;
     [SerializeField] private float dashDuration = 0.15f;
-    [SerializeField] private float dashCooldown = 1f;
+    [SerializeField] private float dashCooldown = 3f;
 
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool isDashing;
     private bool canDash = true;
     private bool hasDashed = false;
-
-    private float dashTimeLeft;
-    private float lastDash = -100f;
 
     void Start()
     {
@@ -32,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             Jump();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !hasDashed || Input.GetKeyDown(KeyCode.C) && canDash && !hasDashed || Input.GetKeyDown(KeyCode.X) && canDash && !hasDashed)
+        if (Input.GetKeyDown(KeyCode.Q) && canDash && !hasDashed)
             StartDash();
     }
 
@@ -40,7 +36,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isDashing) return;
 
-        float move = Input.GetAxisRaw("Horizontal");
+        float move = 0;
+
+        if (Input.GetKey(KeyCode.A))
+            move = -1;
+        else if (Input.GetKey(KeyCode.D))
+            move = 1;
 
         if (isGrounded)
         {
@@ -48,20 +49,13 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (move != 0)
-            {
-                float targetX = move * speed;
-                float newX = Mathf.Lerp(rb.linearVelocity.x, targetX, airControlMultiplier * Time.fixedDeltaTime);
-                rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
-            }
-            else
-            {
-                rb.linearVelocity = new Vector2(
-                    Mathf.Lerp(rb.linearVelocity.x, 0, airDrag),
-                    rb.linearVelocity.y
-                );
-            }
+            float targetX = move * speed;
+            float newX = Mathf.Lerp(rb.linearVelocity.x, targetX, airControlMultiplier * Time.fixedDeltaTime);
+            rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
         }
+
+        if (move != 0)
+            transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
     }
 
     private void Jump()
@@ -72,13 +66,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void StartDash()
     {
-        float moveInput = Input.GetAxisRaw("Horizontal");
+        float moveInput = 0;
+
+        if (Input.GetKey(KeyCode.A))
+            moveInput = -1;
+        else if (Input.GetKey(KeyCode.D))
+            moveInput = 1;
 
         if (moveInput == 0) return;
 
         isDashing = true;
         canDash = false;
-        dashTimeLeft = dashDuration;
 
         if (!isGrounded)
             hasDashed = true;
@@ -87,8 +85,7 @@ public class PlayerMovement : MonoBehaviour
 
         Invoke(nameof(EndDash), dashDuration);
         Invoke(nameof(ResetDash), dashCooldown);
-
-        }
+    }
 
     private void EndDash()
     {
@@ -107,10 +104,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Elevator"))
+        {
             isGrounded = true;
             hasDashed = false;
             canDash = true;
+        }
+
+        if (collision.collider.CompareTag("Spike"))
+        {
+            Die();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Spike"))
+        {
+            Die();
+        }
     }
 }
