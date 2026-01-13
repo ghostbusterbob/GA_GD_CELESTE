@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snow-run.spritmap_0: -6147408422612213379
+      snow-run.spritmap_1: 325762623890146466
+      snow-run.spritmap_2: -3291045239852866356
+      snow-run.spritmap_3: 2219258248448993724
+      snow-run.spritmap_4: 350739248488118309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
