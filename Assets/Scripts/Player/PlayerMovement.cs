@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash = true;
     private bool hasDashed = false;
 
+    private bool wallclimbing = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +32,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q) && canDash && !hasDashed)
             StartDash();
+        
+        
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            CheckWallClimb();
+        }
+
+        if (wallclimbing)
+        {
+            Debug.Log("Wallclimbing");
+        }
+        
+      
     }
 
     void FixedUpdate()
@@ -56,6 +71,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (move != 0)
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
+
+
+        
     }
 
     private void Jump()
@@ -124,4 +142,24 @@ public class PlayerMovement : MonoBehaviour
             Die();
         }
     }
+
+    private void CheckWallClimb()
+    {
+        Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+
+        // Offset the ray outside the player collider
+        Vector2 origin = (Vector2)transform.position + direction * 0.1f;
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, 1f);
+
+        Debug.DrawRay(origin, direction * 1f, Color.red, 1f);
+
+        if (hit.collider != null && hit.collider.CompareTag("WallClimb"))
+        {
+            Debug.Log("Wall detected");
+            wallclimbing = true;
+        }
+    }
+
+
 }
