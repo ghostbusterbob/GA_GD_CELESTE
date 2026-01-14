@@ -18,7 +18,9 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash = true;
     private bool hasDashed = false;
 
-    private bool wallclimbing = false;
+    [SerializeField] private bool wallclimbing = false;
+
+    [SerializeField]private Transform wallclimbpoint;
 
     void Start()
     {
@@ -42,6 +44,10 @@ public class PlayerMovement : MonoBehaviour
         if (wallclimbing)
         {
             Debug.Log("Wallclimbing");
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            transform.position = wallclimbpoint.position;
+            
+            
         }
         
       
@@ -150,13 +156,15 @@ public class PlayerMovement : MonoBehaviour
         // Offset the ray outside the player collider
         Vector2 origin = (Vector2)transform.position + direction * 0.1f;
 
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, 1f);
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, .1f);
 
         Debug.DrawRay(origin, direction * 1f, Color.red, 1f);
 
-        if (hit.collider != null && hit.collider.CompareTag("WallClimb"))
+        if (hit.collider != null && hit.collider.CompareTag("wallclimbpoint"))
         {
             Debug.Log("Wall detected");
+
+            wallclimbpoint = hit.collider.transform;    
             wallclimbing = true;
         }
     }
