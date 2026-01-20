@@ -66878,6 +66878,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1232165867509763870, guid: 7053ee99877dd974a86ab07ee6506c89, type: 3}
   m_PrefabInstance: {fileID: 2117789005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2118170588
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.67692447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.67692447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.67692447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823766197328122056, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220495209176292981, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
+      propertyPath: m_Name
+      value: Strawberry Klaar (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9cc2fc66740acd4aa5f4707eff29925, type: 3}
 --- !u!1 &2118316148
 GameObject:
   m_ObjectHideFlags: 0
@@ -68785,3 +68854,4 @@ SceneRoots:
   - {fileID: 944173335}
   - {fileID: 2033964598}
   - {fileID: 1510972211}
+  - {fileID: 2118170588}
