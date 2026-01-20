@@ -12,7 +12,7 @@ public class Pickup : MonoBehaviour
         {
             _pickedUp = true;
             _animator.SetBool("PickedUp", true);
-            FindAnyObjectByType<Score>().AddStrawberry();
+            //FindAnyObjectByType<Score>().AddStrawberry();
         }
     }
 
