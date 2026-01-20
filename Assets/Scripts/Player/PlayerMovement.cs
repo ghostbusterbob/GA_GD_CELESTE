@@ -12,15 +12,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashDuration = 0.15f;
     [SerializeField] private float dashCooldown = 3f;
 
+    [Header("Wall Climb Settings")]
+    [SerializeField] private float wallClimbSpeed = 3f;
+
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool isDashing;
     private bool canDash = true;
     private bool hasDashed = false;
 
-    [SerializeField] private bool wallclimbing = false;
-
-    [SerializeField]private Transform wallclimbpoint;
+    private bool wallClimbing = false;
+    private Transform wallClimbPoint;
 
     void Start()
     {
@@ -29,33 +31,16 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-            Jump();
-
-        if (Input.GetKeyDown(KeyCode.Q) && canDash && !hasDashed)
-            StartDash();
-        
-        
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            CheckWallClimb();
-        }
-
-        if (wallclimbing)
-        {
-            Debug.Log("Wallclimbing");
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
-            transform.position = wallclimbpoint.position;
-            
-            
-        }
-        
-      
+        HandleJump();
+        HandleDash();
+        HandleWallClimbCheck();
+        HandleWallClimbMovement();
+        HandleSpriteFlip();
     }
 
     void FixedUpdate()
     {
-        if (isDashing) return;
+        if (isDashing || wallClimbing) return;
 
         float move = 0;
 
@@ -74,18 +59,38 @@ public class PlayerMovement : MonoBehaviour
             float newX = Mathf.Lerp(rb.linearVelocity.x, targetX, airControlMultiplier * Time.fixedDeltaTime);
             rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
         }
+    }
 
-        if (move != 0)
-            transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
-
-
-        
+    private void HandleJump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (isGrounded)
+            {
+                Jump();
+            }
+            else if (wallClimbing)
+            {
+                // Jump off the wall
+                wallClimbing = false;
+                rb.gravityScale = 1;
+                rb.linearVelocity = new Vector2(transform.localScale.x * -jumpForce, jumpForce);
+            }
+        }
     }
 
     private void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         isGrounded = false;
+    }
+
+    private void HandleDash()
+    {
+        if (Input.GetKeyDown(KeyCode.Q) && canDash && !hasDashed)
+        {
+            StartDash();
+        }
     }
 
     private void StartDash()
@@ -121,9 +126,65 @@ public class PlayerMovement : MonoBehaviour
         canDash = true;
     }
 
-    public void Die()
+    private void HandleWallClimbCheck()
     {
-        Destroy(gameObject);
+        if (Input.GetKeyDown(KeyCode.G) && !wallClimbing)
+        {
+            Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+            Vector2 origin = (Vector2)transform.position + direction * 0.1f;
+
+            RaycastHit2D hit = Physics2D.Raycast(origin, direction, 0.5f);
+            Debug.DrawRay(origin, direction * 0.5f, Color.red, 1f);
+
+            if (hit.collider != null && hit.collider.CompareTag("wallclimbpoint"))
+            {
+                wallClimbPoint = hit.collider.transform;
+                StartWallClimb();
+            }
+        }
+    }
+
+    private void StartWallClimb()
+    {
+        wallClimbing = true;
+        rb.gravityScale = 0;
+        rb.linearVelocity = Vector2.zero;
+        transform.position = wallClimbPoint.position;
+    }
+
+    private void HandleWallClimbMovement()
+    {
+        if (!wallClimbing) return;
+
+        float vertical = 0;
+        if (Input.GetKey(KeyCode.W))
+            vertical = 1;
+        else if (Input.GetKey(KeyCode.S))
+            vertical = -1;
+
+        rb.linearVelocity = new Vector2(0, vertical * wallClimbSpeed);
+
+        // Release wall if moving away
+        if ((Input.GetKey(KeyCode.A) && transform.localScale.x > 0) || 
+            (Input.GetKey(KeyCode.D) && transform.localScale.x < 0))
+        {
+            wallClimbing = false;
+            rb.gravityScale = 1;
+        }
+    }
+
+    private void HandleSpriteFlip()
+    {
+        if (wallClimbing) return;
+
+        float move = 0;
+        if (Input.GetKey(KeyCode.A))
+            move = -1;
+        else if (Input.GetKey(KeyCode.D))
+            move = 1;
+
+        if (move != 0)
+            transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -133,6 +194,8 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             hasDashed = false;
             canDash = true;
+            wallClimbing = false;
+            rb.gravityScale = 1;
         }
 
         if (collision.collider.CompareTag("Spike"))
@@ -149,25 +212,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void CheckWallClimb()
+    public void Die()
     {
-        Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
-
-        // Offset the ray outside the player collider
-        Vector2 origin = (Vector2)transform.position + direction * 0.1f;
-
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, .1f);
-
-        Debug.DrawRay(origin, direction * 1f, Color.red, 1f);
-
-        if (hit.collider != null && hit.collider.CompareTag("wallclimbpoint"))
-        {
-            Debug.Log("Wall detected");
-
-            wallclimbpoint = hit.collider.transform;    
-            wallclimbing = true;
-        }
+        Destroy(gameObject);
     }
-
-
 }
