@@ -18,7 +18,7 @@ public class Pickup : MonoBehaviour
 
     // Deze functie wordt door een Animation Event aangeroepen
     public void AnimationFinished()
-    {
+    {   
         Destroy(gameObject);
     }
 }
