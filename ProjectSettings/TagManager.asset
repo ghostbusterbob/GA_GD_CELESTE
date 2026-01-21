@@ -61,5 +61,8 @@ TagManager:
   - name: Front
     uniqueID: 3113513819
     locked: 0
+  - name: Collectibles
+    uniqueID: 1201257805
+    locked: 0
   m_RenderingLayers:
   - Default
