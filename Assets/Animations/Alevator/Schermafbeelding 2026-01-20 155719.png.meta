@@ -1,0 +1,2098 @@
+fileFormatVersion: 2
+guid: 2fdfed9cc132a664c80a93745286ebee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4468374446563516066
+    second: Schermafbeelding 2026-01-20 155719_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74b63298fc1f4c42910169c983f58d8
+      internalID: -1147644164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397f679860ad664688ec52b8d59d599
+      internalID: 277333030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522497422d3871847ae97ade27ec3bfb
+      internalID: 348833538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df58a852d556cf488e0ac5bb46fd06b
+      internalID: -1952073634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc7f80b8f752944b529bde92b98934
+      internalID: 1855863962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dbcb5ac86bd964c95e9b5d290c6a6e
+      internalID: 1281162032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 536
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc1ac5a26b09c14ea2eeb8439892fd7
+      internalID: -1266070777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777710124409f249aad08f760758c6e
+      internalID: 1720167572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1253e3fc372053d4fac85e730a03349e
+      internalID: 1787464053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532ea9021b0bd3a49acaa0b8c517e0ed
+      internalID: 2072548553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa79434bf8c632f4c8d5e99b7364b68d
+      internalID: 1870565174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b177ce3be2f62d42bc1b3eda3fe71e6
+      internalID: 126961223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a122d5c2ce9964987e29eeb9053507
+      internalID: 298220097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 492
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b2ce78ba548114990b9ad4b835c3da
+      internalID: -518107708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b08ba20f74744d8f3001580e46ae6
+      internalID: -1832571193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479fdfecaf48e78418b2ce72ed63a5bf
+      internalID: 868675845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_16
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f03133dc7cc00a4fafda56e94141695
+      internalID: -1478054626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_17
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a65cb23a48ccd146a858a169e7f238e
+      internalID: -59710391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e125280b6fa34bada3ad96d7ba48f
+      internalID: -1431513923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_19
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e9b43f68a48e42b5b9653699c18e8
+      internalID: 1574059378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 448
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c42c1113ceb614aa38e539aa1bb19a
+      internalID: -584280794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2282d6a86f8addc4385f5d5bb20cbf3e
+      internalID: -923340936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbb33a412b20324181b0bcf8c0f384c
+      internalID: -2122636580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a5b98c5e81af54391c76f75a0b0564
+      internalID: 55180072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7121f5c9a554a448ac526042c8b415c
+      internalID: -562087888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_25
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0211bcf3ca282e48a4517b9ac3b85b8
+      internalID: 320522575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_26
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ef0618bac1d7a43bad4b1800579acf
+      internalID: 164171900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_27
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 404
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd547e418672004ba5a19897f5fcd62
+      internalID: 58444629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e78a00574312b4faf2a87c12808bde
+      internalID: 96922364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a4cb091afbfec4a8d1f440d9517182
+      internalID: 210490695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_30
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6213ae478ec404aa79e564d4154d35
+      internalID: -1190530523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab119512cc03c314db9e8d4782d1f716
+      internalID: 2010467063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_32
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbf6093383023b4999851f5242793ec
+      internalID: 396790488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_33
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb7d44ad851b7a4baef4bc4b4109594
+      internalID: 1092786436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 360
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac8f6a58edbc9d4b9589b16d927fe7f
+      internalID: 136001376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b5d8d8364100f4b85a1d28e8cb606b
+      internalID: 1805024543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afaacb02d5c9e744b5d64edd4041636
+      internalID: 188577537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_37
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1408ad2a47dff4a9f2fd9b9e126a33
+      internalID: 579708957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_38
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345685061e1bd6f48b4518cba9fecc3f
+      internalID: 1579155684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_39
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d852c0df94b054b8d10e442cc94de9
+      internalID: -1616880037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848c9ee6f1be83e4e9dc3d5a113e011d
+      internalID: 1015531200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_41
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 316
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c92f949f9b17418c639c67ce03eff
+      internalID: 431084996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14f53bf3e36ae408e1ae1122a6ffbe
+      internalID: 1764591030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6203a52ebb4d793409cbb3a1c5a81baf
+      internalID: -5718127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_44
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22a78d67b926774a8db335c51a93f15
+      internalID: -1854422039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_45
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13ed359d854c24494ba60ca44c531c
+      internalID: 764969722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_46
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7f8abbae8e7874a9fc18565a14916d
+      internalID: 62214370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_47
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a3b415456a3e40b52bad47bed6310
+      internalID: -1432545042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_48
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 272
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0603f15f8cd123c44905dc5e82f75610
+      internalID: 2104678340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3147c8ecc82b044c80a8eb2b9c6e697
+      internalID: 1138669124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f565b2d479f80904188824e776911a0b
+      internalID: 2082387734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_51
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e7e6f271e6a4e4db6d0e83cfa34722
+      internalID: -1344644591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_52
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a876bc8df3f27734286186c8ab7e8b92
+      internalID: -824183707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_53
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fc20163e4490846acda86f687d5a07
+      internalID: 741850825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_54
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9845fd1f1ef2de745bfee778a30b03f2
+      internalID: -633753913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_55
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 228
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1680dd7e9dc40c14eb63faeb01b6c845
+      internalID: -45747518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9936e180228ddba49a537a08f650593c
+      internalID: 1013232773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6b84c328d18134589a0ca2d1faa396
+      internalID: 878141112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_58
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cce6aba25a0ae94e91af55a5b9777e8
+      internalID: 1054725897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_59
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd65104a5e0ea443a18de22b54124ea
+      internalID: -1482995457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_60
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b17f41113a9e04e91da4df99e4734e
+      internalID: 1115968844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_61
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73a282182ab8cf46a7589e2324a565e
+      internalID: 831261491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_62
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 184
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaf1e4f0b7564847ab3b4e871c23c59
+      internalID: -232317170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_63
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f727257d60b8a7c4580ca42aae02abdb
+      internalID: -1259774194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e4e5422e68b124b8816bc7bcaf08f6
+      internalID: 169109755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_65
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d0ea65b876094fa731b79f5d2d692
+      internalID: 820349071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_66
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ffc90058a339b4da87f8fd87e70b0d
+      internalID: -717331564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_67
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3db34c02221e644689e0e3450d87268
+      internalID: 780639798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adec2f441fb73574ca5f670991c0baee
+      internalID: -786026698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_69
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 140
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b690b1ff41c9614bbf67607820273de
+      internalID: 1646030566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500b4394ee7991469e326abb3b5e373
+      internalID: -1610891917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139eca263c8654740aac42bc2890e683
+      internalID: -308338612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_72
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d88786dcabf95344a6ff967f6c56803
+      internalID: 1155105616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_73
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c6892d50ed6ec4799870a8dc91526e
+      internalID: -670198745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_74
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d739d7c5b1ad7ce4d921815cc18daca2
+      internalID: -717043193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_75
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f3080ec41c9834ca3e5f50b6735547
+      internalID: 502125235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_76
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 96
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c11e9d6f3083542837e926344f29ec
+      internalID: -513370036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_77
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e0ccd05ad7edb409aabc5e4d7b8bb2
+      internalID: 1900404205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_78
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd2596e8176a664fb81fc688e3e3584
+      internalID: 1127199638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_79
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d002ce6a802b84645b65d98bccdee780
+      internalID: 1021819764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_80
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710fdd821ec6c84897c0138c43eb67c
+      internalID: -1064832108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_81
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d28a80706425df489fc922060074f52
+      internalID: -1165448623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_82
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6794bfe3f74b25947987923f8d4ec2c3
+      internalID: 1664717066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_83
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 52
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011b80277beb9c24281991f984dc63f7
+      internalID: 1811408429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6781f8db1182934ead03f0ff834162e
+      internalID: 2101560827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 8
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55661693c28c9d648ba1d98d58cd320e
+      internalID: -2077525144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a136adb0b5095b14585f0b4604bd246b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Schermafbeelding 2026-01-20 155719_0: -1147644164
+      Schermafbeelding 2026-01-20 155719_1: 277333030
+      Schermafbeelding 2026-01-20 155719_10: 1870565174
+      Schermafbeelding 2026-01-20 155719_11: 126961223
+      Schermafbeelding 2026-01-20 155719_12: 298220097
+      Schermafbeelding 2026-01-20 155719_13: -518107708
+      Schermafbeelding 2026-01-20 155719_14: -1832571193
+      Schermafbeelding 2026-01-20 155719_15: 868675845
+      Schermafbeelding 2026-01-20 155719_16: -1478054626
+      Schermafbeelding 2026-01-20 155719_17: -59710391
+      Schermafbeelding 2026-01-20 155719_18: -1431513923
+      Schermafbeelding 2026-01-20 155719_19: 1574059378
+      Schermafbeelding 2026-01-20 155719_2: 348833538
+      Schermafbeelding 2026-01-20 155719_20: -584280794
+      Schermafbeelding 2026-01-20 155719_21: -923340936
+      Schermafbeelding 2026-01-20 155719_22: -2122636580
+      Schermafbeelding 2026-01-20 155719_23: 55180072
+      Schermafbeelding 2026-01-20 155719_24: -562087888
+      Schermafbeelding 2026-01-20 155719_25: 320522575
+      Schermafbeelding 2026-01-20 155719_26: 164171900
+      Schermafbeelding 2026-01-20 155719_27: 58444629
+      Schermafbeelding 2026-01-20 155719_28: 96922364
+      Schermafbeelding 2026-01-20 155719_29: 210490695
+      Schermafbeelding 2026-01-20 155719_3: -1952073634
+      Schermafbeelding 2026-01-20 155719_30: -1190530523
+      Schermafbeelding 2026-01-20 155719_31: 2010467063
+      Schermafbeelding 2026-01-20 155719_32: 396790488
+      Schermafbeelding 2026-01-20 155719_33: 1092786436
+      Schermafbeelding 2026-01-20 155719_34: 136001376
+      Schermafbeelding 2026-01-20 155719_35: 1805024543
+      Schermafbeelding 2026-01-20 155719_36: 188577537
+      Schermafbeelding 2026-01-20 155719_37: 579708957
+      Schermafbeelding 2026-01-20 155719_38: 1579155684
+      Schermafbeelding 2026-01-20 155719_39: -1616880037
+      Schermafbeelding 2026-01-20 155719_4: 1855863962
+      Schermafbeelding 2026-01-20 155719_40: 1015531200
+      Schermafbeelding 2026-01-20 155719_41: 431084996
+      Schermafbeelding 2026-01-20 155719_42: 1764591030
+      Schermafbeelding 2026-01-20 155719_43: -5718127
+      Schermafbeelding 2026-01-20 155719_44: -1854422039
+      Schermafbeelding 2026-01-20 155719_45: 764969722
+      Schermafbeelding 2026-01-20 155719_46: 62214370
+      Schermafbeelding 2026-01-20 155719_47: -1432545042
+      Schermafbeelding 2026-01-20 155719_48: 2104678340
+      Schermafbeelding 2026-01-20 155719_49: 1138669124
+      Schermafbeelding 2026-01-20 155719_5: 1281162032
+      Schermafbeelding 2026-01-20 155719_50: 2082387734
+      Schermafbeelding 2026-01-20 155719_51: -1344644591
+      Schermafbeelding 2026-01-20 155719_52: -824183707
+      Schermafbeelding 2026-01-20 155719_53: 741850825
+      Schermafbeelding 2026-01-20 155719_54: -633753913
+      Schermafbeelding 2026-01-20 155719_55: -45747518
+      Schermafbeelding 2026-01-20 155719_56: 1013232773
+      Schermafbeelding 2026-01-20 155719_57: 878141112
+      Schermafbeelding 2026-01-20 155719_58: 1054725897
+      Schermafbeelding 2026-01-20 155719_59: -1482995457
+      Schermafbeelding 2026-01-20 155719_6: -1266070777
+      Schermafbeelding 2026-01-20 155719_60: 1115968844
+      Schermafbeelding 2026-01-20 155719_61: 831261491
+      Schermafbeelding 2026-01-20 155719_62: -232317170
+      Schermafbeelding 2026-01-20 155719_63: -1259774194
+      Schermafbeelding 2026-01-20 155719_64: 169109755
+      Schermafbeelding 2026-01-20 155719_65: 820349071
+      Schermafbeelding 2026-01-20 155719_66: -717331564
+      Schermafbeelding 2026-01-20 155719_67: 780639798
+      Schermafbeelding 2026-01-20 155719_68: -786026698
+      Schermafbeelding 2026-01-20 155719_69: 1646030566
+      Schermafbeelding 2026-01-20 155719_7: 1720167572
+      Schermafbeelding 2026-01-20 155719_70: -1610891917
+      Schermafbeelding 2026-01-20 155719_71: -308338612
+      Schermafbeelding 2026-01-20 155719_72: 1155105616
+      Schermafbeelding 2026-01-20 155719_73: -670198745
+      Schermafbeelding 2026-01-20 155719_74: -717043193
+      Schermafbeelding 2026-01-20 155719_75: 502125235
+      Schermafbeelding 2026-01-20 155719_76: -513370036
+      Schermafbeelding 2026-01-20 155719_77: 1900404205
+      Schermafbeelding 2026-01-20 155719_78: 1127199638
+      Schermafbeelding 2026-01-20 155719_79: 1021819764
+      Schermafbeelding 2026-01-20 155719_8: 1787464053
+      Schermafbeelding 2026-01-20 155719_80: -1064832108
+      Schermafbeelding 2026-01-20 155719_81: -1165448623
+      Schermafbeelding 2026-01-20 155719_82: 1664717066
+      Schermafbeelding 2026-01-20 155719_83: 1811408429
+      Schermafbeelding 2026-01-20 155719_84: 2101560827
+      Schermafbeelding 2026-01-20 155719_85: -2077525144
+      Schermafbeelding 2026-01-20 155719_9: 2072548553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
