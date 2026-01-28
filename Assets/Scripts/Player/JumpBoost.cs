@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class JumpBoostTrigger : MonoBehaviour
 {
+    public bool inJumpBoostZone;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            //other.GetComponent<PlayerJump>().inJumpBoostZone = true;
+            //other.GetComponent<PlayerMovement>().inJumpBoostZone = true;
         }
     }
 
@@ -14,7 +16,7 @@ public class JumpBoostTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //other.GetComponent<PlayerJump>().inJumpBoostZone = false;
+            //other.GetComponent<PlayerMovement>().inJumpBoostZone = false;
         }
     }
 }

@@ -6,6 +6,8 @@ public class Eleve : MonoBehaviour
     [SerializeField] private float metersUp = 3f;
     [SerializeField] private float waitTime = 3f; 
     [SerializeField] private float speed;
+    [SerializeField] private Animator animator;
+    [SerializeField] private Animator animatorGears;
 
     [SerializeField] private CameraShake cameraShake;
 
@@ -50,13 +52,42 @@ public class Eleve : MonoBehaviour
             {
                 shouldLerpUp = false;  
                 timer = 0f;
-                reachedTopOnce = false; 
+                reachedTopOnce = false;
+
+                animator.SetBool("Down", true);
+                animator.SetBool("Up", false);
+                animator.SetBool("Idle", false);
+
+                animatorGears.SetBool("Down", true);
+                animatorGears.SetBool("Up", false);
+                animatorGears.SetBool("Idle", false);
             }
         }
+
+        bool reachedBottom = Vector2.Distance(transform.position, initialPosition) < 0.15f; 
+
+        if (reachedBottom)
+        {
+            animator.SetBool("Down", false);
+            animator.SetBool("Up", false);
+            animator.SetBool("Idle", true);
+
+            animatorGears.SetBool("Down", false);
+            animatorGears.SetBool("Up", false);
+            animatorGears.SetBool("Idle", true);
+        }
+        
     }
     // slowdown effect
     private void LerpEffect()
     {
+        animator.SetBool("Down", false);
+        animator.SetBool("Up", true);
+        animator.SetBool("Idle", false);
+
+        animatorGears.SetBool("Down", false);
+        animatorGears.SetBool("Up", true);
+        animatorGears.SetBool("Idle", false);
         transform.position = Vector2.Lerp(transform.position, finalPos, Time.deltaTime * speed);
 
         bool reachedTop = Vector2.Distance(transform.position, initialPosition + Vector2.up * metersUp) < 0.15f;
@@ -87,7 +118,7 @@ public class Eleve : MonoBehaviour
         {
             shouldLerpUp = true;
             hasShaken = false;
-            reachedTopOnce = false; 
+            reachedTopOnce = false;
         }
     }
 
