@@ -1,13 +1,11 @@
 using System;
 using UnityEngine;
-using System.Collections;
+
 public class Eleve : MonoBehaviour
 {
     [SerializeField] private float metersUp = 3f;
     [SerializeField] private float waitTime = 3f; 
     [SerializeField] private float speed;
-    [SerializeField] private Animator animator;
-    [SerializeField] private Animator animatorGears;
 
     [SerializeField] private CameraShake cameraShake;
 
@@ -22,11 +20,6 @@ public class Eleve : MonoBehaviour
     
     [SerializeField] private float shakeMagnitude;
     [SerializeField] private float shakeTime;
-    
-    [SerializeField] private float startDelay = 1f;
-    
-    
-
 
 
     private void Start()
@@ -57,49 +50,16 @@ public class Eleve : MonoBehaviour
             {
                 shouldLerpUp = false;  
                 timer = 0f;
-                reachedTopOnce = false;
-
-                animator.SetBool("Down", true);
-                animator.SetBool("Up", false);
-                animator.SetBool("Idle", false);
-
-                animatorGears.SetBool("Down", true);
-                animatorGears.SetBool("Up", false);
-                animatorGears.SetBool("Idle", false);
+                reachedTopOnce = false; 
             }
         }
-
-        bool reachedBottom = Vector2.Distance(transform.position, initialPosition) < 0.15f; 
-
-        if (reachedBottom)
-        {
-            animator.SetBool("Down", false);
-            animator.SetBool("Up", false);
-            animator.SetBool("Idle", true);
-
-            animatorGears.SetBool("Down", false);
-            animatorGears.SetBool("Up", false);
-            animatorGears.SetBool("Idle", true);
-        }
-        
     }
     // slowdown effect
     private void LerpEffect()
     {
-        animator.SetBool("Down", false);
-        animator.SetBool("Up", true);
-        animator.SetBool("Idle", false);
+        transform.position = Vector2.Lerp(transform.position, finalPos, Time.deltaTime * speed);
 
-        animatorGears.SetBool("Down", false);
-        animatorGears.SetBool("Up", true);
-        animatorGears.SetBool("Idle", false);
-        transform.position = Vector2.MoveTowards(
-            transform.position,
-            finalPos,
-            speed * Time.deltaTime
-        );
-
-        bool reachedTop = Vector2.Distance(transform.position, initialPosition + Vector2.up * metersUp) < 0.05f;
+        bool reachedTop = Vector2.Distance(transform.position, initialPosition + Vector2.up * metersUp) < 0.15f;
 
         if (reachedTop)
         {
@@ -108,7 +68,7 @@ public class Eleve : MonoBehaviour
                 hasShaken = true;
                 if (cameraShake != null)
                 {
-                    StartCoroutine(cameraShake.Shake(.3f, 2));
+                    StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
                 }
             }
 
@@ -125,25 +85,10 @@ public class Eleve : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(cameraShake.Shake(1, 0.2f));
-
-            StartCoroutine(StartElevatorAfterDelay());
+            shouldLerpUp = true;
+            hasShaken = false;
+            reachedTopOnce = false; 
         }
     }
-    private IEnumerator StartElevatorAfterDelay()
-    {
-        hasShaken = false;
-        reachedTopOnce = false;
-
-        // Optional: play idle animation during delay
-        animator.SetBool("Idle", true);
-        animatorGears.SetBool("Idle", true);
-
-        yield return new WaitForSeconds(startDelay);
-
-        shouldLerpUp = true;
-    }
-
-
 
 }

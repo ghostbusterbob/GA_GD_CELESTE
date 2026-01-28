@@ -4,25 +4,17 @@ public class JumpBoostTrigger : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
-
-        PlayerMovement pm = other.GetComponent<PlayerMovement>();
-        if (pm != null)
+        if (other.CompareTag("Player"))
         {
-            pm.inJumpBoostZone = true;
-            Debug.Log("Jump boost ENABLED");
+            //other.GetComponent<PlayerJump>().inJumpBoostZone = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
-
-        PlayerMovement pm = other.GetComponent<PlayerMovement>();
-        if (pm != null)
+        if (other.CompareTag("Player"))
         {
-            pm.inJumpBoostZone = false;
-            Debug.Log("Jump boost DISABLED");
+            //other.GetComponent<PlayerJump>().inJumpBoostZone = false;
         }
     }
 }

@@ -1,24 +1,28 @@
 using System;
-using Unity.Cinemachine;
 using UnityEngine;
+using Random = UnityEngine.Random;
+using System.Collections.Generic;
 using System.Collections;
 
 public class CameraShake : MonoBehaviour
 {
-    public CinemachineBasicMultiChannelPerlin vcam;
+ 
 
-    private void Start()
+    public IEnumerator Shake(float duration, float magnitude)
     {
-        StartCoroutine(Shake(1,1));
-    }
-
-    public IEnumerator Shake(float duration, float amplitude)
-    {
-        
-        vcam.AmplitudeGain = amplitude;
-
-        yield return new WaitForSeconds(duration);
-
-        vcam.AmplitudeGain = 0f;
+        Vector3 originalPos = new Vector3(0,0,-10);
+        float elapsedTime = 0f;
+    
+        while (elapsedTime < duration)
+        {
+            float xOffset = Random.Range(-0.5f, 0.5f) * magnitude;
+            float yOffset = Random.Range(-0.5f, 0.5f) * magnitude;
+    
+            transform.localPosition = new Vector3(xOffset, yOffset, originalPos.z);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+    
+        transform.localPosition = originalPos;
     }
 }

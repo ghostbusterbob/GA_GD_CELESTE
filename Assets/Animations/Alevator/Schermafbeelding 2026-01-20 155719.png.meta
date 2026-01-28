@@ -103,12 +103,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 536
-        width: 68
-        height: 36
+        x: 6
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,12 +125,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 536
-        width: 68
-        height: 36
+        x: 82
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_2
       rect:
         serializedVersion: 2
-        x: 157
-        y: 536
-        width: 68
-        height: 36
+        x: 158
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -169,12 +169,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_3
       rect:
         serializedVersion: 2
-        x: 233
-        y: 536
-        width: 68
-        height: 36
+        x: 234
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_4
       rect:
         serializedVersion: 2
-        x: 309
-        y: 536
-        width: 68
-        height: 36
+        x: 310
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_5
       rect:
         serializedVersion: 2
-        x: 385
-        y: 536
-        width: 68
-        height: 36
+        x: 386
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_6
       rect:
         serializedVersion: 2
-        x: 461
-        y: 536
-        width: 68
-        height: 36
+        x: 462
+        y: 537
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_7
       rect:
         serializedVersion: 2
-        x: 5
-        y: 492
-        width: 68
-        height: 36
+        x: 6
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_8
       rect:
         serializedVersion: 2
-        x: 81
-        y: 492
-        width: 68
-        height: 36
+        x: 82
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,12 +301,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_9
       rect:
         serializedVersion: 2
-        x: 157
-        y: 492
-        width: 68
-        height: 36
+        x: 158
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_10
       rect:
         serializedVersion: 2
-        x: 233
-        y: 492
-        width: 68
-        height: 36
+        x: 234
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,12 +345,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_11
       rect:
         serializedVersion: 2
-        x: 309
-        y: 492
-        width: 68
-        height: 36
+        x: 310
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_12
       rect:
         serializedVersion: 2
-        x: 385
-        y: 492
-        width: 68
-        height: 36
+        x: 386
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_13
       rect:
         serializedVersion: 2
-        x: 461
-        y: 492
-        width: 68
-        height: 36
+        x: 462
+        y: 493
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,12 +411,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_14
       rect:
         serializedVersion: 2
-        x: 5
-        y: 448
-        width: 68
-        height: 36
+        x: 6
+        y: 449
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,12 +433,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_15
       rect:
         serializedVersion: 2
-        x: 81
-        y: 448
-        width: 68
-        height: 36
+        x: 82
+        y: 449
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_16
       rect:
         serializedVersion: 2
-        x: 157
-        y: 448
-        width: 68
-        height: 36
+        x: 158
+        y: 449
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_17
       rect:
         serializedVersion: 2
-        x: 233
-        y: 448
-        width: 68
-        height: 36
+        x: 234
+        y: 449
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_18
       rect:
         serializedVersion: 2
-        x: 309
-        y: 448
-        width: 68
-        height: 36
+        x: 310
+        y: 449
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,12 +521,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_19
       rect:
         serializedVersion: 2
-        x: 385
-        y: 448
-        width: 68
-        height: 36
+        x: 386
+        y: 449
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -543,12 +543,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_20
       rect:
         serializedVersion: 2
-        x: 461
-        y: 448
-        width: 68
-        height: 36
+        x: 462
+        y: 449
+        width: 66
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_21
       rect:
         serializedVersion: 2
-        x: 5
-        y: 404
-        width: 68
-        height: 36
+        x: 6
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,12 +587,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_22
       rect:
         serializedVersion: 2
-        x: 81
-        y: 404
-        width: 68
-        height: 36
+        x: 82
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_23
       rect:
         serializedVersion: 2
-        x: 157
-        y: 404
-        width: 68
-        height: 36
+        x: 158
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_24
       rect:
         serializedVersion: 2
-        x: 233
-        y: 404
-        width: 68
-        height: 36
+        x: 234
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -653,12 +653,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_25
       rect:
         serializedVersion: 2
-        x: 309
-        y: 404
-        width: 68
-        height: 36
+        x: 310
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_26
       rect:
         serializedVersion: 2
-        x: 385
-        y: 404
-        width: 68
-        height: 36
+        x: 386
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -697,12 +697,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_27
       rect:
         serializedVersion: 2
-        x: 461
-        y: 404
-        width: 68
-        height: 36
+        x: 462
+        y: 405
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -719,12 +719,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_28
       rect:
         serializedVersion: 2
-        x: 5
-        y: 360
-        width: 68
-        height: 36
+        x: 6
+        y: 361
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -741,12 +741,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_29
       rect:
         serializedVersion: 2
-        x: 81
-        y: 360
-        width: 68
-        height: 36
+        x: 82
+        y: 361
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -764,11 +764,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 157
-        y: 360
-        width: 68
-        height: 36
+        y: 361
+        width: 67
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -785,12 +785,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_31
       rect:
         serializedVersion: 2
-        x: 233
-        y: 360
-        width: 68
-        height: 36
+        x: 234
+        y: 361
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -807,12 +807,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_32
       rect:
         serializedVersion: 2
-        x: 309
-        y: 360
-        width: 68
-        height: 36
+        x: 310
+        y: 361
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -829,12 +829,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_33
       rect:
         serializedVersion: 2
-        x: 385
-        y: 360
-        width: 68
-        height: 36
+        x: 386
+        y: 361
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -851,12 +851,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_34
       rect:
         serializedVersion: 2
-        x: 461
-        y: 360
-        width: 68
-        height: 36
+        x: 462
+        y: 361
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -873,12 +873,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_35
       rect:
         serializedVersion: 2
-        x: 5
-        y: 316
-        width: 68
-        height: 36
+        x: 6
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -895,12 +895,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_36
       rect:
         serializedVersion: 2
-        x: 81
-        y: 316
-        width: 68
-        height: 36
+        x: 82
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -917,12 +917,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_37
       rect:
         serializedVersion: 2
-        x: 157
-        y: 316
-        width: 68
-        height: 36
+        x: 158
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -939,12 +939,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_38
       rect:
         serializedVersion: 2
-        x: 233
-        y: 316
-        width: 68
-        height: 36
+        x: 234
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -961,12 +961,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_39
       rect:
         serializedVersion: 2
-        x: 309
-        y: 316
-        width: 68
-        height: 36
+        x: 310
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -983,12 +983,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_40
       rect:
         serializedVersion: 2
-        x: 385
-        y: 316
-        width: 68
-        height: 36
+        x: 386
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1005,12 +1005,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_41
       rect:
         serializedVersion: 2
-        x: 461
-        y: 316
-        width: 68
-        height: 36
+        x: 462
+        y: 317
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1028,11 +1028,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 272
+        y: 273
         width: 68
-        height: 36
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1049,12 +1049,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_43
       rect:
         serializedVersion: 2
-        x: 81
-        y: 272
-        width: 68
-        height: 36
+        x: 82
+        y: 273
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1071,12 +1071,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_44
       rect:
         serializedVersion: 2
-        x: 157
-        y: 272
-        width: 68
-        height: 36
+        x: 158
+        y: 273
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1093,12 +1093,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_45
       rect:
         serializedVersion: 2
-        x: 233
-        y: 272
-        width: 68
-        height: 36
+        x: 234
+        y: 273
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1115,12 +1115,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_46
       rect:
         serializedVersion: 2
-        x: 309
-        y: 272
-        width: 68
-        height: 36
+        x: 310
+        y: 273
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1137,12 +1137,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_47
       rect:
         serializedVersion: 2
-        x: 385
-        y: 272
-        width: 68
-        height: 36
+        x: 386
+        y: 273
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1159,12 +1159,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_48
       rect:
         serializedVersion: 2
-        x: 461
-        y: 272
-        width: 68
-        height: 36
+        x: 462
+        y: 273
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1181,12 +1181,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_49
       rect:
         serializedVersion: 2
-        x: 5
-        y: 228
-        width: 68
-        height: 36
+        x: 6
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1203,12 +1203,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_50
       rect:
         serializedVersion: 2
-        x: 81
-        y: 228
-        width: 68
-        height: 36
+        x: 82
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1225,12 +1225,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_51
       rect:
         serializedVersion: 2
-        x: 157
-        y: 228
-        width: 68
-        height: 36
+        x: 158
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1247,12 +1247,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_52
       rect:
         serializedVersion: 2
-        x: 233
-        y: 228
-        width: 68
-        height: 36
+        x: 234
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1269,12 +1269,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_53
       rect:
         serializedVersion: 2
-        x: 309
-        y: 228
-        width: 68
-        height: 36
+        x: 310
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1291,12 +1291,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_54
       rect:
         serializedVersion: 2
-        x: 385
-        y: 228
-        width: 68
-        height: 36
+        x: 386
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1313,12 +1313,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_55
       rect:
         serializedVersion: 2
-        x: 461
-        y: 228
-        width: 68
-        height: 36
+        x: 462
+        y: 229
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1335,12 +1335,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_56
       rect:
         serializedVersion: 2
-        x: 5
-        y: 184
-        width: 68
-        height: 36
+        x: 6
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1357,12 +1357,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_57
       rect:
         serializedVersion: 2
-        x: 81
-        y: 184
-        width: 68
-        height: 36
+        x: 82
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1379,12 +1379,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_58
       rect:
         serializedVersion: 2
-        x: 157
-        y: 184
-        width: 68
-        height: 36
+        x: 158
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1401,12 +1401,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_59
       rect:
         serializedVersion: 2
-        x: 233
-        y: 184
-        width: 68
-        height: 36
+        x: 234
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1423,12 +1423,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_60
       rect:
         serializedVersion: 2
-        x: 309
-        y: 184
-        width: 68
-        height: 36
+        x: 310
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1445,12 +1445,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_61
       rect:
         serializedVersion: 2
-        x: 385
-        y: 184
-        width: 68
-        height: 36
+        x: 386
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1467,12 +1467,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_62
       rect:
         serializedVersion: 2
-        x: 461
-        y: 184
-        width: 68
-        height: 36
+        x: 462
+        y: 185
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1489,12 +1489,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_63
       rect:
         serializedVersion: 2
-        x: 5
-        y: 140
-        width: 68
-        height: 36
+        x: 6
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1511,12 +1511,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_64
       rect:
         serializedVersion: 2
-        x: 81
-        y: 140
-        width: 68
-        height: 36
+        x: 82
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1533,12 +1533,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_65
       rect:
         serializedVersion: 2
-        x: 157
-        y: 140
-        width: 68
-        height: 36
+        x: 158
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1555,12 +1555,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_66
       rect:
         serializedVersion: 2
-        x: 233
-        y: 140
-        width: 68
-        height: 36
+        x: 234
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1577,12 +1577,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_67
       rect:
         serializedVersion: 2
-        x: 309
-        y: 140
-        width: 68
-        height: 36
+        x: 310
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1599,12 +1599,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_68
       rect:
         serializedVersion: 2
-        x: 385
-        y: 140
-        width: 68
-        height: 36
+        x: 386
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1621,12 +1621,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_69
       rect:
         serializedVersion: 2
-        x: 461
-        y: 140
-        width: 68
-        height: 36
+        x: 462
+        y: 141
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1643,12 +1643,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_70
       rect:
         serializedVersion: 2
-        x: 5
-        y: 96
-        width: 68
-        height: 36
+        x: 6
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1665,12 +1665,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_71
       rect:
         serializedVersion: 2
-        x: 81
-        y: 96
-        width: 68
-        height: 36
+        x: 82
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1687,12 +1687,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_72
       rect:
         serializedVersion: 2
-        x: 157
-        y: 96
-        width: 68
-        height: 36
+        x: 158
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1709,12 +1709,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_73
       rect:
         serializedVersion: 2
-        x: 233
-        y: 96
-        width: 68
-        height: 36
+        x: 234
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1731,12 +1731,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_74
       rect:
         serializedVersion: 2
-        x: 309
-        y: 96
-        width: 68
-        height: 36
+        x: 310
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1753,12 +1753,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_75
       rect:
         serializedVersion: 2
-        x: 385
-        y: 96
-        width: 68
-        height: 36
+        x: 386
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1775,12 +1775,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_76
       rect:
         serializedVersion: 2
-        x: 461
-        y: 96
-        width: 68
-        height: 36
+        x: 462
+        y: 97
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1797,12 +1797,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_77
       rect:
         serializedVersion: 2
-        x: 5
-        y: 52
-        width: 68
-        height: 36
+        x: 6
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1819,12 +1819,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_78
       rect:
         serializedVersion: 2
-        x: 81
-        y: 52
-        width: 68
-        height: 36
+        x: 82
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1841,12 +1841,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_79
       rect:
         serializedVersion: 2
-        x: 157
-        y: 52
-        width: 68
-        height: 36
+        x: 158
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1863,12 +1863,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_80
       rect:
         serializedVersion: 2
-        x: 233
-        y: 52
-        width: 68
-        height: 36
+        x: 234
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1885,12 +1885,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_81
       rect:
         serializedVersion: 2
-        x: 309
-        y: 52
-        width: 68
-        height: 36
+        x: 310
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1907,12 +1907,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_82
       rect:
         serializedVersion: 2
-        x: 385
-        y: 52
-        width: 68
-        height: 36
+        x: 386
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1929,12 +1929,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_83
       rect:
         serializedVersion: 2
-        x: 461
-        y: 52
-        width: 68
-        height: 36
+        x: 462
+        y: 53
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1951,12 +1951,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_84
       rect:
         serializedVersion: 2
-        x: 5
-        y: 8
-        width: 68
-        height: 36
+        x: 6
+        y: 9
+        width: 66
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1973,12 +1973,12 @@ TextureImporter:
       name: Schermafbeelding 2026-01-20 155719_85
       rect:
         serializedVersion: 2
-        x: 81
-        y: 8
-        width: 68
-        height: 36
+        x: 82
+        y: 9
+        width: 66
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1987,6 +1987,138 @@ TextureImporter:
       bones: []
       spriteID: 55661693c28c9d648ba1d98d58cd320e
       internalID: -2077525144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_86
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 9
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f00fb1b6ad1e74ab991347acae0c2d
+      internalID: -1010017246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_87
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 9
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff50976041a554480005954d4b56bd
+      internalID: -2111602172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_88
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 9
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ddb09397a3db940a588aa7410f6b99
+      internalID: 1927104647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_89
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 9
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c733f84c499b1c4492e417800382262
+      internalID: 947208320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_90
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 9
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3166e9009e1ba74ea9be5f2b6317fd0
+      internalID: -1617105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schermafbeelding 2026-01-20 155719_91
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 554
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5d000d306f7a144bdd47184ace9528
+      internalID: 963648774
       vertices: []
       indices: 
       edges: []
@@ -2090,7 +2222,13 @@ TextureImporter:
       Schermafbeelding 2026-01-20 155719_83: 1811408429
       Schermafbeelding 2026-01-20 155719_84: 2101560827
       Schermafbeelding 2026-01-20 155719_85: -2077525144
+      Schermafbeelding 2026-01-20 155719_86: -1010017246
+      Schermafbeelding 2026-01-20 155719_87: -2111602172
+      Schermafbeelding 2026-01-20 155719_88: 1927104647
+      Schermafbeelding 2026-01-20 155719_89: 947208320
       Schermafbeelding 2026-01-20 155719_9: 2072548553
+      Schermafbeelding 2026-01-20 155719_90: -1617105
+      Schermafbeelding 2026-01-20 155719_91: 963648774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

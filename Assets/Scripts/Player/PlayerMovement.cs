@@ -5,7 +5,6 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float speed = 7f;
     [SerializeField] private float jumpForce = 4.5f;
-    [SerializeField] private float BoostedJumpForce = 6f;
     [SerializeField] private float airControlMultiplier = 10f;
 
     [Header("Dash")]
@@ -35,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     private int wallDirection; // -1 = left, 1 = right
 
     private float wallGrabTimer;
-    internal bool inJumpBoostZone;
 
     void Start()
     {
@@ -112,16 +110,10 @@ public class PlayerMovement : MonoBehaviour
         // Ground jump
         if (isGrounded)
         {
-            float usedJumpForce = inJumpBoostZone ? BoostedJumpForce : jumpForce;
-
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-            rb.AddForce(Vector2.up * usedJumpForce, ForceMode2D.Impulse);
-
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
             return;
         }
-
-
 
         // Wall jump (works even while holding G)
         if (isTouchingWall)
@@ -141,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
     // ---------------- DASH ----------------
     private void HandleDash()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !hasDashed)
+        if (Input.GetKeyDown(KeyCode.Q) && canDash && !hasDashed)
         {
             float move = Input.GetAxisRaw("Horizontal");
             if (move == 0) return;
