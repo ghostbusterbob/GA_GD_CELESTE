@@ -2,21 +2,27 @@ using UnityEngine;
 
 public class JumpBoostTrigger : MonoBehaviour
 {
-    public bool inJumpBoostZone;
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        PlayerMovement pm = other.GetComponent<PlayerMovement>();
+        if (pm != null)
         {
-            //other.GetComponent<PlayerMovement>().inJumpBoostZone = true;
+            pm.inJumpBoostZone = true;
+            Debug.Log("Jump boost ENABLED");
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        PlayerMovement pm = other.GetComponent<PlayerMovement>();
+        if (pm != null)
         {
-            //other.GetComponent<PlayerMovement>().inJumpBoostZone = false;
+            pm.inJumpBoostZone = false;
+            Debug.Log("Jump boost DISABLED");
         }
     }
 }
