@@ -7,6 +7,7 @@ using System.Collections;
 public class CameraShake : MonoBehaviour
 {
  
+    
 
     public IEnumerator Shake(float duration, float magnitude)
     {

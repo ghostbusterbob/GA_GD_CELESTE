@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-
+using System.Collections;
 public class Eleve : MonoBehaviour
 {
     [SerializeField] private float metersUp = 3f;
@@ -22,6 +22,11 @@ public class Eleve : MonoBehaviour
     
     [SerializeField] private float shakeMagnitude;
     [SerializeField] private float shakeTime;
+    
+    [SerializeField] private float startDelay = 1f;
+    
+    
+
 
 
     private void Start()
@@ -116,10 +121,23 @@ public class Eleve : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            shouldLerpUp = true;
-            hasShaken = false;
-            reachedTopOnce = false;
+            StartCoroutine(StartElevatorAfterDelay());
         }
     }
+    private IEnumerator StartElevatorAfterDelay()
+    {
+        hasShaken = false;
+        reachedTopOnce = false;
+
+        // Optional: play idle animation during delay
+        animator.SetBool("Idle", true);
+        animatorGears.SetBool("Idle", true);
+
+        yield return new WaitForSeconds(startDelay);
+
+        shouldLerpUp = true;
+    }
+
+
 
 }
