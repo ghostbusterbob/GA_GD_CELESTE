@@ -39940,11 +39940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 105840248657643064, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.68
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 105840248657643064, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.36
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 2160815546502735977, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
       propertyPath: speed
@@ -44596,7 +44596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80720ba41dc726b429a9da221a03e5af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcam: {fileID: 1064271912}
 --- !u!114 &1427301616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66929,6 +66928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105561411}
   - component: {fileID: 2105561412}
+  - component: {fileID: 2105561413}
   m_Layer: 0
   m_Name: Backwall
   m_TagString: Untagged
@@ -67006,6 +67006,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2105561413
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105561410}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d8956a86af5425428e5a367f0288585, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2107052659
 PrefabInstance:
   m_ObjectHideFlags: 0
