@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa8437a1aa915044b9bf5f017a90f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inJumpBoostZone: 0
 --- !u!1 &4586968
 GameObject:
   m_ObjectHideFlags: 0
@@ -29426,7 +29427,7 @@ GameObject:
   - component: {fileID: 930553780}
   - component: {fileID: 930553781}
   - component: {fileID: 930553782}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallclimbpoint
   m_TagString: wallclimbpoint
   m_Icon: {fileID: 0}
@@ -29442,8 +29443,8 @@ Transform:
   m_GameObject: {fileID: 930553779}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.53, y: 0.407, z: 0}
-  m_LocalScale: {x: 0.5276451, y: 0.794152, z: 0.7474372}
+  m_LocalPosition: {x: -0.53, y: -0.39828, z: 0}
+  m_LocalScale: {x: 0.5276451, y: 1.9456725, z: 0.7474372}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2033964598}
@@ -65081,7 +65082,7 @@ Transform:
   m_GameObject: {fileID: 2033964596}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.632, y: -0.608, z: 0}
+  m_LocalPosition: {x: -0.632, y: -0.404, z: 0}
   m_LocalScale: {x: 0.2699871, y: 0.24250945, z: 0.68769}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69049,12 +69050,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
+      propertyPath: wallClimbSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
       propertyPath: boostedJumpForce
       value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
       propertyPath: ledgeCheckHeight
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 4445195087448576665, guid: 96d06fd856fcd5a438f199e7cabbe7bf, type: 3}
       propertyPath: airControlMultiplier
