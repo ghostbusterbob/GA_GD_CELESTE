@@ -93,9 +93,13 @@ public class Eleve : MonoBehaviour
         animatorGears.SetBool("Down", false);
         animatorGears.SetBool("Up", true);
         animatorGears.SetBool("Idle", false);
-        transform.position = Vector2.Lerp(transform.position, finalPos, Time.deltaTime * speed);
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            finalPos,
+            speed * Time.deltaTime
+        );
 
-        bool reachedTop = Vector2.Distance(transform.position, initialPosition + Vector2.up * metersUp) < 0.15f;
+        bool reachedTop = Vector2.Distance(transform.position, initialPosition + Vector2.up * metersUp) < 0.05f;
 
         if (reachedTop)
         {
@@ -104,7 +108,7 @@ public class Eleve : MonoBehaviour
                 hasShaken = true;
                 if (cameraShake != null)
                 {
-                    StartCoroutine(cameraShake.Shake(shakeTime, shakeMagnitude));
+                    StartCoroutine(cameraShake.Shake(.3f, 2));
                 }
             }
 
@@ -121,6 +125,8 @@ public class Eleve : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            StartCoroutine(cameraShake.Shake(1, 0.2f));
+
             StartCoroutine(StartElevatorAfterDelay());
         }
     }

@@ -13480,7 +13480,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9159227424607796336, guid: 931a2747776c34a4d9d6a0ad5e47aae1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141696298}
   m_SourcePrefab: {fileID: 100100000, guid: 931a2747776c34a4d9d6a0ad5e47aae1, type: 3}
 --- !u!1001 &412954400
 PrefabInstance:
@@ -16178,7 +16181,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9159227424607796336, guid: 931a2747776c34a4d9d6a0ad5e47aae1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1064271912}
   m_SourcePrefab: {fileID: 100100000, guid: 931a2747776c34a4d9d6a0ad5e47aae1, type: 3}
 --- !u!1001 &522476620
 PrefabInstance:
@@ -33637,6 +33643,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1064271907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9159227424607796336, guid: 931a2747776c34a4d9d6a0ad5e47aae1, type: 3}
+  m_PrefabInstance: {fileID: 521264012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1064271912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064271907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  AmplitudeGain: 0
+  FrequencyGain: 1
+  m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1065539955
 GameObject:
   m_ObjectHideFlags: 0
@@ -44561,6 +44589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80720ba41dc726b429a9da221a03e5af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vcam: {fileID: 1064271912}
 --- !u!114 &1427301616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68464,6 +68493,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2141696293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9159227424607796336, guid: 931a2747776c34a4d9d6a0ad5e47aae1, type: 3}
+  m_PrefabInstance: {fileID: 400744493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2141696298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141696293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  AmplitudeGain: 0
+  FrequencyGain: 1
+  m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &2144642463
 GameObject:
   m_ObjectHideFlags: 0
