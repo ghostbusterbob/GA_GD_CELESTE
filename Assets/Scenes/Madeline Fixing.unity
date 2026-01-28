@@ -39931,9 +39931,17 @@ PrefabInstance:
       value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2160815546502735977, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 1427301615}
+    - target: {fileID: 2160815546502735977, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
       propertyPath: animatorGears
       value: 
       objectReference: {fileID: 2066157910}
+    - target: {fileID: 2160815546502735977, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
+      propertyPath: shakeMagnitude
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5956242260149796137, guid: 423177c851ea3ec429cf3835d5739a9c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5037429
